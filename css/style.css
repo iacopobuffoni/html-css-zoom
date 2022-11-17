@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inlineblock {
+    display: inline-block;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+}
+
+.linepadding {
+    margin-top: 10px;
+}
+
+.back {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    padding: 55px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.line {
+    height: calc(100% / 5);
+    width: 100%;
+}
+
+.imgbox {
+    height: 100%;
+    width: calc((100% / 7) - 4px);
+}
+
+.imgbox > img {
+    width: 100%;
+}
+
+.userbox {
+    background-color: rgba(0, 0, 0, 0.3);
+}
