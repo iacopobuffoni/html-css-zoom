@@ -9,9 +9,16 @@
         <title> Zoom </title>
     </head>
     <body> 
-        <main>
-            <div class="back">
-                <div class="container">
+        <main> <!-- Inizio main -->
+            <div class="back"> <!-- Viewport nero -->
+                <div class="container relative"> <!-- Griglia finestre utenti -->
+                    <div class="absolute icons"> <!-- Buttons alto destra -->
+                        <div class="iconcontainer"> Speaker View </div>
+                        <div class="iconcontainer">
+                            <i class="fa-solid fa-maximize"></i>
+                        </div>
+                    </div>
+                    <!-- Righe griglia -->
                     <div class="line linepadding">
                         <div class="imgbox inlineblock relative">
                             <img src="https://cdn.arstechnica.net/wp-content/uploads/2014/02/snow-leopard-640x400.jpg" alt="">
@@ -337,9 +344,12 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Fine righe griglia -->
                 </div>
+                <!-- Barra azioni zoom -->
                 <div class="actionbar">
                     <div class="flexbox actionbar-nav">
+                        <!-- Inizio parte sinistra -->
                         <div class="actionbar-nav-left flexbox">
                             <ul>
                                 <li class="inlineblock center">
@@ -357,40 +367,55 @@
                                     <i class="fa-solid fa-chevron-up"></i>
                                 </li>                
                             </ul>
+                        <!-- Fine parte sinistra -->
                         </div>
                         <div class="actionbar-nav-center flexbox">
+                        <!-- Inizio parte centrale -->
                             <ul>
                                 <li class="inlineblock center">
-                                    <i class="fa-solid fa-microphone"></i>
-                                    <div class="desc"> Mute </div>
+                                    <i class="fa-solid fa-user-plus"></i>
+                                    <div class="desc"> Invite </div>
+                                </li>
+                                <li class="inlineblock center">
+                                    <i class="fa-solid fa-user-group"></i>
+                                    <div class="desc"> Manage Participants </div>
+                                </li>
+                                <li class="inlineblock center">
+                                    <i class="fa-solid fa-chart-column"></i>
+                                    <div class="desc"> Polling </div>
+                                </li>
+                                <li class="inlineblock center">
+                                    <i class="fa-solid fa-share-from-square green"></i>
+                                    <div class="desc"> Share Screen </div>
                                 </li>
                                 <li class="inlineblock chevron">
                                     <i class="fa-solid fa-chevron-up"></i>
                                 </li>
                                 <li class="inlineblock center">
-                                    <i class="fa-solid fa-video"></i>
-                                    <div class="desc"> Stop Video </div>
-                                </li>
-                                <li class="inlineblock chevron">
-                                    <i class="fa-solid fa-chevron-up"></i>
-                                </li> <li class="inlineblock center">
-                                    <i class="fa-solid fa-microphone"></i>
-                                    <div class="desc"> Mute </div>
-                                </li>
-                                <li class="inlineblock chevron">
-                                    <i class="fa-solid fa-chevron-up"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                    <div class="desc"> Chat </div>
                                 </li>
                                 <li class="inlineblock center">
-                                    <i class="fa-solid fa-video"></i>
-                                    <div class="desc"> Stop Video </div>
+                                    <i class="fa-solid fa-record-vinyl"></i>
+                                    <div class="desc"> Record </div>
+                                </li> 
+                                <li class="inlineblock center">
+                                    <i class="fa-solid fa-shapes"></i>
+                                    <div class="desc"> Breakout Rooms </div>
                                 </li>
-                                <li class="inlineblock chevron">
-                                    <i class="fa-solid fa-chevron-up"></i>
+                                <li class="inlineblock center">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                    <div class="desc"> More </div>
                                 </li>               
                             </ul>
+                        <!-- Fine parte centrale -->
                         </div>
                         <div class="actionbar-nav-right flexbox">
-                            
+                        <!-- Inizio parte destra -->
+                            <div class="grayrightbox">
+                                <div class="meeting"> End Meeting </div> 
+                            </div>
+                        <!-- Fine parte destra -->
                         </div>
                     </div>
                 </div>
